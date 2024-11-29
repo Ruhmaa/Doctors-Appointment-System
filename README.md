@@ -8,3 +8,5 @@ This is a simple web-based Doctor Appointment System built using HTML and CSS. T
 ### Technologies Used
 1. HTML: For structuring the content of the = webpage.
 2. CSS: For styling and layout to create a responsive design.
+<img width="1437" alt="Screenshot 2024-11-29 at 10 57 55 PM" src="https://github.com/user-attachments/assets/6d235074-b297-4945-b51e-bd168d1be9f4">
+<img width="1440" alt="Screenshot 2024-11-29 at 10 58 39 PM" src="https://github.com/user-attachments/assets/182ce70e-abe6-4174-8a17-8354cb0e3755">
