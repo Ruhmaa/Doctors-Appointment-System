@@ -1,2 +1,2 @@
-# Code-amazon store
-Amazon Store  
+# Doctors Appointment System
+
