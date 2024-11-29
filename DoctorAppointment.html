@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment</title>
+    <link rel="stylesheet" href="doc.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Doctor's Clinic</h1>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <img src="doct.jpg" alt="Doctor Image" class="hero-image">
+            <div class="hero-text">
+                <h2>Book Your Appointment Today!</h2>
+                <p>We offer the best healthcare services with experienced doctors to take care of your health.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="appointment-form">
+        <h2>Schedule an Appointment</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Appointment Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="doctor">Choose Doctor:</label>
+            <select id="doctor" name="doctor">
+                <option value="dr_smith">Dr. Smith</option>
+                <option value="dr_johnson">Dr. Johnson</option>
+                <option value="dr_williams">Dr. Williams</option>
+            </select>
+
+            <label for="message">Additional Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Book Appointment</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Doctor's Clinic. All rights reserved.</p>
+    </footer>
+</body>
+</html>
